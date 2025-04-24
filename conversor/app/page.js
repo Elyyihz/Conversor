@@ -8,7 +8,6 @@ export default function Home() {
       </div>
       
       <div className="feature-cards">
-        {/* Card Moeda */}
         <div className="feature-card">
           <div className="feature-card-header">
             <div className="feature-card-icon">
@@ -28,7 +27,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Card Temperatura */}
         <div className="feature-card">
           <div className="feature-card-header">
             <div className="feature-card-icon">
