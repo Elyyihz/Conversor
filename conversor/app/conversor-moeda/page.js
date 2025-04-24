@@ -51,23 +51,22 @@ export default function ConversorMoeda() {
             Real Brasileiro (BRL)
           </label>
           <input
-            id="dolar"
+            id="real"
             type="number"
-            value={dolar}
-            onChange={handleDolarChange}
+            value={real}
+            onChange={handleRealChange}
             placeholder="0,00"
           />
         </div>
-        
         <div className="converter-group">
           <label className="converter-label" htmlFor="dolar">
             Dólar Americano (USD)
           </label>
           <input
-            id="real"
+            id="dolar"
             type="number"
-            value={real}
-            onChange={handleRealChange}
+            value={dolar}
+            onChange={handleDolarChange}
             placeholder="0,00"
           />
         </div>
